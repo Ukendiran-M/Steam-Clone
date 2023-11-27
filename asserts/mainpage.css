@@ -1,0 +1,43 @@
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul
+{
+    position: relative;
+    bottom: 70px;
+}
+
+li
+{
+    position: relative;
+    left: 800px;
+}
+
+li a
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 47px 20px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    color: aquamarine;
+}
+
+img
+{
+    position: relative;
+    left: 600px;
+    top: 55px;
+    z-index: 4;
+}
