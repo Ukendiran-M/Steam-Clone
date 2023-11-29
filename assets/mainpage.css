@@ -1,43 +1,108 @@
-ul
-{
+.nav {
+    position: relative;
+    bottom: 10px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: 25px;
     overflow: hidden;
-    background-color: #333;
-}
-
-ul
-{
-    position: relative;
-    bottom: 70px;
-}
-
-li
-{
-    position: relative;
-    left: 800px;
-}
-
-li a
-{
+    background-color: #171d25;
+  }
+  
+  li {
     float: left;
+    position: relative;
+    left: 680px;
+    top: 10px;
+  }
+  
+  li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 47px 20px;
+    padding: 14px 16px;
     text-decoration: none;
-}
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+  }
+  
+  li a:hover {
+    color: rgb(0, 174, 255);
+    text-decoration: underline;
+  }
 
-li a:hover
-{
-    color: aquamarine;
-}
-
-img
-{
+  #logo
+  {
     position: relative;
-    left: 600px;
-    top: 55px;
-    z-index: 4;
-}
+    z-index: 2;
+    bottom: 114px;
+    right: 180px;
+  }
+
+  #install
+  {
+    background-color: rgba(26, 190, 26, 0.671);
+    position: relative;
+    left: 1140px;
+    bottom: 135px;
+    color: white;
+    font-size: 12px;
+    border: none;
+  }
+
+  .dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 0px;
+    font-size: 11px;
+    border: none;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    left: 1145px;
+    bottom: 135px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 6px 6px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  body
+  {
+    background-color: black;
+  }
+
+  #drop
+  {
+    position: relative;
+    left: 4px;
+    top: 2px;
+    color: white;
+  }
+
+  .login
+  {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 1145px;
+    bottom: 135px;
+    color: white;
+    font-size: 11px;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+  }
