@@ -245,3 +245,15 @@ a :hover> .sidebar{
   height: 720px;
   width: 1280px;
 }
+
+#demo
+{
+  position: relative;
+  left: 50px;
+}
+
+.carousel-indicators
+{
+  position: relative;
+  top: 415px;
+}
